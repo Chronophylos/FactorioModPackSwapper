@@ -1,0 +1,7 @@
+symlink: true # create a symlink instead of copying the mods # default: true
+config: '%appdata%/Factorio' # example on windows
+modpacks:
+  SeaBlock 0.27 Chrono: #  modpack name
+    directory: seablock_0.27-chrono # directory where your mods reside
+  Vanilla:
+    directory: vanilla
