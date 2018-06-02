@@ -89,6 +89,8 @@ def main(config):
         main(config)
     if selection in ['exit', 'quit']:
         return
+    if selection == "":
+        return main(config)
     try:
         modpack = config.modpacks[int(selection)]
     except KeyError:
